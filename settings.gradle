@@ -1,0 +1,5 @@
+rootProject.name = 'commons'
+include 'Services'
+include 'Exceptions'
+include 'pooling'
+

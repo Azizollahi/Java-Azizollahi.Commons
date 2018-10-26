@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'azizollahi.commons'
+version '1.0.0'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':Exceptions')
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+ext.moduleName = 'azizollahi.commons.services'
